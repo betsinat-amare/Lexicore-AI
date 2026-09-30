@@ -4,6 +4,7 @@ from analysis_schema import AnalysisResult
 result = AnalysisResult(
     findings=[
         {
+            "policy": "Confidentiality",
             "category": "Potentially Relevant Statement",
             "severity": "high",
             "description": "The speaker describes an intention to commit a robbery.",

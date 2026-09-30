@@ -10,5 +10,6 @@ __pycache__/
 transcript.json
 speakers.json
 combined_transcript.json
+analysis.json
 
 .env

@@ -3,6 +3,7 @@ from typing import List
 
 
 class Finding(BaseModel):
+    policy: str
     category: str
     severity: str
     description: str
